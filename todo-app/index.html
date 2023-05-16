@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1><span>Todo</span> <span>App</span></h1>
+        <form class="todo--form">
+          <input
+            type="text"
+            class="todo--input"
+            id="todo--input"
+            placeholder="Add A Todo ..."
+          />
+          <button class="add-todo-btn" id="add-todo-btn">Add</button>
+        </form>
+      </header>
+
+      <main class="main">
+        <ul class="todo--list" id="todo--list"></ul>
+      </main>
+
+      <div class="todo--info1">
+        <p><span class="num--remaining">0</span> remaining</p>
+        <p><span class="num--completed">0</span> completed</p>
+      </div>
+
+      <footer class="footer">
+        <button data-action="show-all">All</button>
+        <button data-action="show-active">Active</button>
+        <button data-action="show-complete">Completed</button>
+      </footer>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
