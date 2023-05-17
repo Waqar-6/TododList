@@ -87,6 +87,7 @@ form {
   gap: 8px;
   height: 100%;
   transition: all 3s ease-in;
+  padding: 0.5rem 1rem;
 }
 
 .todo--list li {
@@ -96,6 +97,7 @@ form {
   padding: 1rem 0.5rem;
   border-radius: 10px;
   background-color: #1c1917;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .todo--list li div {
